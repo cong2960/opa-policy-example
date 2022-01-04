@@ -1,0 +1,13 @@
+{
+    "name": "eipNotAssociatedInstance",
+    "file": "eipNotAssociatedInstance.rego",
+    "policy_type": "alicloud",
+    "resource_type": "alicloud_instance",
+    "severity": "medium",
+    "description": "ECS实例未绑定弹性IP",
+    "reference_id": "cloudiac_alicloud_bestpractice_p001",
+    "category": "最佳实践",
+    "version": 1,
+    "id": "cloudiac_alicloud_bestpractice_p001"
+}
+
