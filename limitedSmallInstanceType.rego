@@ -17,7 +17,7 @@ package accurics
 # @severity: HIGH
 
 ## 策略分类(或者叫标签)，多个分类使用逗号分隔
-# @category: 成本
+# @label: 成本
 
 ## 策略修复建议
 # @fix_suggestion: instance_type 使用包含 small / nano 的小型实例类型

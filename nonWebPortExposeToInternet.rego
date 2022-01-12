@@ -17,7 +17,7 @@ package accurics
 # @severity: HIGH
 
 ## 策略分类(或者叫标签)，多个分类使用逗号分隔
-# @category: 安全
+# @label: 安全
 
 ## 策略修复建议（支持多行）
 # @fix_suggestion: 
