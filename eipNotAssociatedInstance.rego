@@ -7,7 +7,7 @@ eipNotAssociateInstance[instance.id] {
     not contains(eipassoc.config.instance_id, instance.id)
 }
 
-eipNotAssociateInstance[instance.id] {
-    instance := input.alicloud_instance[_]
-    not input.alicloud_eip_association
-}
+#eipNotAssociateInstance[instance.id] {
+ #   instance := input.alicloud_instance[_]
+   # not input.alicloud_eip_association
+#}
