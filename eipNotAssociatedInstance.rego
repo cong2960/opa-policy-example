@@ -1,11 +1,11 @@
 package accurics
 
 
-eipNotAssociateInstance[instance.id] {
-    instance := input.alicloud_instance[_]
-    eipassoc := input.alicloud_eip_association[_]
-    not contains(eipassoc.config.instance_id, instance.id)
-}
+# eipNotAssociateInstance[instance.id] {
+#     instance := input.alicloud_instance[_]
+#     eipassoc := input.alicloud_eip_association[_]
+#     not contains(eipassoc.config.instance_id, instance.id)
+# }
 
 #eipNotAssociateInstance[instance.id] {
  #   instance := input.alicloud_instance[_]
